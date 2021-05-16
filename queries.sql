@@ -27,8 +27,8 @@ VALUES
  -- Seed data to jokes table:
 INSERT INTO jokes (title, body, category_id)
 VALUES
-	("RATTLE SNAKE", "Two men are hiking through the woods when one of them cries out, “Snake! Run!” His companion laughs at him. “Oh, relax. It’s only a baby,” he says. “Don’t you hear the rattle?” —Steve Smith", 2),
-	("WHITEBOARD", "I'm a big fan of whiteboards. I find them quite re-markable.", 3),
-	("MARRIAGE", "Marriage is like going to a restaurant. You order what you want, then when you see what the other person has, you wish you had ordered that.", 4),
-	("YO MAMM...", "Yo mama's so fat, when she wears high heels, she strikes oil.", 5),
-	("SHY GENE", "They have just found the gene for shyness. They would have found it earlier, but it was hiding behind two other genes.", 6);
+ ("RATTLE SNAKE", "Two men are hiking through the woods when one of them cries out, “Snake! Run!” His companion laughs at him. “Oh, relax. It’s only a baby,” he says. “Don’t you hear the rattle?” —Steve Smith", 2),
+ ("WHITEBOARD", "I'm a big fan of whiteboards. I find them quite re-markable.", 3),
+ ("MARRIAGE", "Marriage is like going to a restaurant. You order what you want, then when you see what the other person has, you wish you had ordered that.", 4),
+ ("YO MAMM...", "Yo mama's so fat, when she wears high heels, she strikes oil.", 5),
+ ("SHY GENE", "They have just found the gene for shyness. They would have found it earlier, but it was hiding behind two other genes.", 6);
