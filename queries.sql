@@ -7,12 +7,12 @@ CREATE TABLE categories(
 
 -- Create jokes table:
 CREATE TABLE jokes(
-	id INT(11) AUTO_INCREMENT NOT NULL,
-	title VARCHAR(255) NOT NULL,
-	body VARCHAR(255) NOT NULL,
-	category_id INT(11),
-	PRIMARY KEY(id),
-	CONSTRAINT fk1 FOREIGN KEY (category_id) REFERENCES categories(id)
+  id INT(11) AUTO_INCREMENT NOT NULL,
+  title VARCHAR(255) NOT NULL,
+  body VARCHAR(255) NOT NULL,
+  category_id INT(11),
+  PRIMARY KEY(id),
+  CONSTRAINT fk1 FOREIGN KEY (category_id) REFERENCES categories(id)
 );
 
 -- Seed data to categories table:
